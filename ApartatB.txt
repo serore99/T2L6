@@ -1,0 +1,4 @@
+24. cat MobyDick.txt | grep ^Moby | wc -l
+25. cat MobyDick.txt | grep Moby | wc -w
+26. cat MobyDick.txt | grep -oi if | wc -w
+27. cat MobyDick.txt | grep ^CHAPTER | awk '!visited[$0]++' >> capitulos.txt

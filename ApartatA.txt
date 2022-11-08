@@ -1,1 +1,2 @@
 8. mkdir un dos tres
+9. echo Sergi Romero Rey >> un.txt

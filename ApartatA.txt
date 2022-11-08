@@ -1,3 +1,7 @@
 8. mkdir un dos tres
 9. echo Sergi Romero Rey >> un.txt
 10. ps aux >> ./dos/processos.txt
+16. cat processos.txt | grep ^root
+17. cat processos.txt | awk '{print $2,$9}'
+18. grep ^alumno processos.txt -n
+19. cat processos.txt | awk '{if($2 >= 100 && $2 < 1000) print($1,$2,$11)}' | sed 's/ /../g'

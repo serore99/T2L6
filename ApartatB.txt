@@ -1,4 +1,9 @@
-24. cat MobyDick.txt | grep ^Moby | wc -l
+24. cat MobyDick.txt | grep Moby | wc -l
 25. cat MobyDick.txt | grep Moby | wc -w
 26. cat MobyDick.txt | grep -oi if | wc -w
 27. cat MobyDick.txt | grep ^CHAPTER | awk '!visited[$0]++' >> capitulos.txt
+28. cat MobyDick.txt | grep ^Moby | wc -l
+29. cat MobyDick.txt | grep Dick$ | wc -l
+33. cat MobyDick.txt | tail -n+849 | grep -A 2 ^CHAPTER > resum.txt
+34. cat MobyDick.txt | sed 's/Whale/CACHALOTE/g' > cachalote.txt
+35. cat processos.txt | awk '{print $1,$4}' | sed 's/ /:/g' > processos2.txt
